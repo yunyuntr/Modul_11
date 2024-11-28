@@ -1,0 +1,199 @@
+// // Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+
+// // Variables
+// @import 'variables';
+
+// // Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+// css
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #3C9D9B !important;
+}
+
+.nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #3C9D9B;
+    color: white;
+    border-radius: 10px;
+}
+
+.half-circle {
+    width: 100%;
+    height: 500px;
+    border-radius: 50% 50% 0 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.profile1 {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.profile2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+    font-size: 690%;
+}
+
+.work-box {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    width: 550px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.work-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.work-description h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.work-description p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+.what-can-i-do {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.what-can-i-do h3 {
+    margin-bottom: 10px;
+    font-size: 350%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.what-can-i-do p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+}
+
+#bs-themes {
+    background-color: #255f5e;
+    padding: 20px 0;
+}
+
+.shall-we {
+    font-family: Arial, sans-serif;
+    font-size: 1000%;
+    font-weight: 900;
+    line-height: 0.9;
+    margin: 0;
+    color: #ffffff;
+}
+
+.email-me {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.btn {
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3C9D9B;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 1px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    color: #123938;
+}
+
+.btn-works {
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3C9D9B;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 1px;
+}
+
+.btn-works:hover {
+    background-color: #123938;
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.nav-link-lower {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C9D9B;
+    font-weight: bold;
+}
+
+.nav-link-lower:hover {
+    text-decoration: underline;
+    color: #255f5e;
+}
+
+.footer {
+    background-color: #ffffff;
+}
